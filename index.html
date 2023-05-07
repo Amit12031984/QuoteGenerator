@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="container">
+        <div class="quote">
+            <i class="fas fa-quote-left" id="left"></i>
+            <span id="quotespan">Where there is will, there is a way</span>
+            <i class="fas fa-quote-right" id="right"></i>
+        </div>
+        <div class="author">
+            <span id="authorspan">Steve</span>
+        </div>
+        <div class="buttons">
+            <button id="btn">Get Quote</button>
+            <i class="fa fa-copy" id="copy"></i>
+            <i class="fa fa-volume-up" id="volume"></i>
+        </div>
+    </div>
+
+    <div class="loader">
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
